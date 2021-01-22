@@ -1,0 +1,90 @@
+#menu_administracao{
+    text-align: center;
+
+    display: block;
+    list-style: none;
+
+    padding: 0%;
+    margin-top: 15%;
+
+    font-size: large;
+}
+#menu_administracao li{
+    
+    margin-top: 3%;
+    border-style: solid;
+}
+#menu_administracao a{
+    text-decoration: none;
+    color: black;
+}
+#menu_administracao a:hover{
+    color: red;
+    transition: ease 0.5s;
+}
+
+.menu_lateral{
+    margin-top: 60%;
+}
+
+/*formata menu lateral e abaixo 
+todas que sem encontram na div menu lateral  */
+#menu_lateral{
+
+    width: 20%;
+    height: 80%; 
+    float: left;
+
+    background:rgb(255, 255, 255);
+
+    border-radius: 15px;
+
+    box-shadow: 9px 7px 5px rgba(126, 124, 124, 0.77);
+
+    text-align: center;
+
+	
+}
+#menuL{
+
+    display: block;
+    list-style: none;
+
+    padding: 0%;
+
+    font-size: large;
+
+}
+#menuL ul{
+    margin-top: 25%;
+}
+#menuL li{
+
+    padding: 0%;
+
+    margin-top: 10%;
+
+    font-size: large;
+
+}
+
+#menuL a{
+    text-decoration: none;
+    color: black;
+}
+#menuL a:hover{
+    color: red;
+    transition: ease 0.5s;
+}
+/* menu na div conteudo */
+#menu_conteudo {
+
+
+    margin-top: 1.5%;
+
+    list-style: none;
+
+    float: right;
+    margin-right: 3%;
+
+}
